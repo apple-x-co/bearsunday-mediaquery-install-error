@@ -43,3 +43,11 @@ You can also try re-running composer require with an explicit version constraint
 
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
+
+## 表示された解決方法
+
+```bash
+composer require ray/media-query -W
+```
+
+この方法だと `0.9.0` がインストールされる。現時点の最新版（`0.11.0`）が使えない。
